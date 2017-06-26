@@ -1,2 +1,2 @@
 # url-shortener 
-Simple Django App that coverts Long URLs and converts it equivalent 6 characters long URL
+Simple Django App that takes Long URLs and converts them into equivalent 6-characters-long URL
