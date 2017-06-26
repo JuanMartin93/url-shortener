@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+
+	<h1 class="cover-heading">{{title}} </h1>
+            <p class="lead"> 
+            
+             <div class='col-sm-6 col-sm-offset-3'>
+						<form method='POST' action='.'> {% csrf_token %}
+							<!-- <input name='inserted_url' type='text' placeholder="Insert your Url" /> -->
+							{{form.as_p}}
+							<input class="btn btn-primary" type='submit' value='ShortenURL'>
+						</form>
+					</div>
+            </p>
+
+{% endblock content %}
+
+	<div class='container'>  
+		<div class='row'>
+			<div class='text-center '>
+				<div style='align-text:center; width: 800px; margin: 0 auto;'>
+
+				<h1> </h1>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
